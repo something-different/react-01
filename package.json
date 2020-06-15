@@ -1,0 +1,23 @@
+{
+  "name": "react-movie",
+  "version": "1.0.0",
+  "description": "这是使用React框架写的",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/something-different/react-movie.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/something-different/react-movie/issues"
+  },
+  "homepage": "https://github.com/something-different/react-movie#readme",
+  "devDependencies": {
+    "webpack": "^4.43.0"
+  }
+}
