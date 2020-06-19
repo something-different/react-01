@@ -11,3 +11,9 @@ const myh1 = React.createElement('h1',null,'this is h1');
 const mydiv = React.createElement('div',null,'this is div',myh1);
 //挂载到页面中
 ReactDOM.render(mydiv,document.getElementById("app"));
+
+//jsx语法
+var a=100
+const mydiv = <div id='mydiv'>this is div{a+2}</div>
+
+//在大括号中可以放入（类似于VUE的差值表达式）
