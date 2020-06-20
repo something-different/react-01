@@ -18,5 +18,10 @@ module.exports={
                 ]
             }}
         ]
+    },
+    resolve:{
+        alias:{
+            '@':path.join(__dirname,'./src')//这样的话，@表示项目根目录中src这一路径
+        }
     }
 }
