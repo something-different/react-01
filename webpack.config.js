@@ -13,10 +13,9 @@ module.exports={
     module:{
         rules:[
             { test:/\.js|jsx$/,loaders:'babel-loader',exclude:/node_modules/,options:{
-                presets:[
-                    "env", "react", 
-                ]
-            }}
+                presets:["env", "react",]
+            }},
+            {test:/\.css$/,loader:['style-loader','css-loader?modules']}//modules只有在css-loader才能用，启动模块化
         ]
     },
     resolve:{
