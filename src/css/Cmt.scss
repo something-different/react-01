@@ -1,0 +1,22 @@
+title{
+    color:red;
+}
+/* css模块化只针对类选择器和id选择器生效，不会对 标签选择器生效 */
+/* 全局的样式，不需要通过className={cssobj.title}获取，要通过className='test'获取 */
+/* 被:global()包裹的类名不会模块化，而是会全局生效
+被:local()包裹的类名会模块化，但是一般默认就是所有类名和id都是会被模块化 */
+:global(.test){
+    border: 1px solid palevioletred;
+}
+.item{
+    border:1px dashed #AAA;
+    margin:10px;
+    padding:10px;
+    box-shadow:0 0 10px #AAA;
+}
+.username{
+    font-size: 14px;
+}
+.content{
+    font-size: 12px;
+}
