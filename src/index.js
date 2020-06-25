@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import ReactDOM from 'react-dom'
 
-import CmtList from './components/BindEvent.jsx'
+import CmtList from './components/BindEvent2.jsx'
 
 var mydiv = <div>
     <CmtList></CmtList>
